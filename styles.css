@@ -1,0 +1,70 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #384B70;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+  }
+  
+  .container {
+    background-color: #b3aeae;
+    padding: 60px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    size: 50%;
+    /* height: 50%;
+    width: 50%; */
+  }
+  /* .container:hover{
+    height: 50%;
+    width: 50%;
+  }
+   */
+  .start-btn, .restart-btn {
+    background-color: #DFD7BF;
+    color: rgb(0, 0, 0);
+
+    border: none;
+    padding: 20px 40px;
+    margin: 10px 10px;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 16px;
+  }
+  .choiceButton{
+    background-color: #DFD7BF;
+    color: rgb(0, 0, 0);
+align-items: center;
+    border: none;justify-content: center;
+    /* padding: 10px; */
+    margin: 10px 30px;
+    height: 70px;
+    max-width: 50%;
+  
+    border-radius: 5px;
+    font-size: 16px;
+  }
+  
+  .start-btn:hover, .restart-btn:hover, .choiceButton:hover {
+    background-color: #F2EAD3;
+  }
+  
+  .choices {
+    margin-top: 20px;
+  }
+  
+  .choiceButton {
+    display: block;
+    width: 100%;
+    margin-bottom: 10px;
+    text-align: left;
+    padding-left: 20px;
+  }
+  
+  .result-container {
+    display: none;
+  }
+  
